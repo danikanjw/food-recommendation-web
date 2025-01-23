@@ -1,0 +1,112 @@
+*{
+    font-family: 'League Spartan', sans-serif;
+    color: white;
+}
+
+.navbar-brand{
+    font-weight: 700;
+    color: white !important;
+}
+
+.custom-hyperlink{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    padding-top: 43px;
+    padding-bottom: 39px;
+}
+
+.card-text {
+    font-weight: bold;
+}
+.custom-btn {
+    background-color: #FEBD02;
+    border-radius: 60px;
+    color: black;
+    font-weight: 500;
+}
+
+.category-tab-wp{
+    margin-bottom: 80px;
+}
+
+.category-tab ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 8px;
+    display: inline-block;
+    border-radius: 60px;
+    background-color: #FEBD02;
+    position: relative;
+    font-size: 17px;
+}
+
+.category-tab ul li {
+    display: inline-flex;
+    cursor: pointer;
+    padding: 5px 15px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    transition: color 0.5s;
+}
+
+.category-tab ul li::after {
+    content: '';
+    background: #FFE28D;
+    width: 100%;
+    height: 100%;
+    border-radius: 60px;
+    top: 100%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: -1 ;
+    opacity: 0;
+}
+
+.category-tab ul li:hover{
+    color: black;
+}
+
+.category-tab ul li:hover::after{
+    top: 50%;
+    opacity: 1;
+}
+
+.card-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    margin-top: -70px; 
+}
+
+.card {
+    flex: 0 0 auto;
+    width: 300px; 
+    margin-right: 50px; 
+    scroll-snap-align: start;
+    background-color: #fff;
+    padding: 20px; 
+    color: white; 
+    border-radius: 5px; 
+}
+
+.rekomendasi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       
+ }
+
+ .btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+ }
+
+ #footer {
+    background-color: #FEBD02;
+ }

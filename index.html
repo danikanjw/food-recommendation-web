@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What to Eat?</title>
+
+    <link rel="stylesheet" href="assets/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body style="background-color: #1A191C;">
+    <nav class="navbar mt-3">
+        <div class="container container-width">
+          <a class="navbar-brand">Foodie</a>
+          <div>
+            <a href="#beranda" class="custom-hyperlink">Beranda</a>
+            <a href="#kategori" class="custom-hyperlink">Kategori</a>
+            <a href="#acak" class="custom-hyperlink">Acak</a>
+          </div>
+        </div>
+      </nav>
+    
+    <hr id="beranda" />
+
+    <section class="">
+        <div class="container container-width">
+            <div class="row mx-0 flex-column-reverse flex-lg-row" style="padding: 30px 0 30px 0;">
+                <div class="col-lg-6 d-flex align-items-center">
+                    <div>
+                        <h1 style="font-weight: bold; font-size: 90px;">What to Eat?</h1>
+                        <p>Bingung hari ini makan apa? Temukan makanan lezat dan sehat untuk sarapan, makan siang, dan makan malammu. Kami akan membantu perencanaan makanmu lebih mudah dan menyenangkan!</p>
+                        <button type="button" onclick="scrollToKategori()" class="custom-btn" style="width: 164px; height: 50px;">Jelajahi Sekarang</button>
+                    </div>
+                </div>
+            <div class="col-6 d-flex justify-content-center rice-img-container">
+                <img src="assets/rice.png" class="rice-img img-fluid" style="max-width: 100%;" alt="">
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <hr id="kategori" />
+    <section>
+        <div class="container container-width">
+            <h2 style="font-weight: bold; font-size: 50px;">Kategori</h2>
+            <div class="category-tab-wp">
+                <div class="row mx-0">
+                    <div class="col-lg-12 m-auto">
+                        <div class="category-tab text-center">
+                            <ul id="category" class="filters">
+                                <li class="filter" data-filter="Beef">Beef</li>
+                                <li class="filter" data-filter="Chicken">Chicken</li>
+                                <li class="filter" data-filter="Dessert">Dessert</li>
+                                <li class="filter" data-filter="Pasta">Pasta</li>
+                                <li class="filter" data-filter="Seafood">Seafood</li>
+                                <li class="filter" data-filter="Breakfast">Breakfast</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-container">
+                
+            </div>
+        </div>
+    </section>
+
+    <hr id="acak" />
+    <section>
+        <div class="container container-width">
+            <h2 style="font-weight: bold; font-size: 50px;">Rekomendasi Acak</h2>
+            <p>Temukan apa yang harus kamu makan hari ini!</p>
+            <div class="rekomendasi">
+                
+            </div>
+            <div class="btn-container">
+            <button type="button" class="custom-btn mb-5" id="randomButton" style="width: 164px; height: 50px;">Temukan Yang Lain</button>
+            </div>
+        </div>
+    </section>
+
+        <footer id="footer" class="flex-shrink-0 py-3">
+          <div class="container text-center">
+            <small style="color: black; font-weight: 500;">Copyright &copy; Foodie</small>
+          </div>
+        </footer>
+  
+    <script src="assets/script.js"></script>
+    
+</body>
+</html>
