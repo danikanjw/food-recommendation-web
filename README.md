@@ -14,4 +14,7 @@ This repository contains the code and resources for a **Dynamic Food Recommendat
   - JavaScript  
 
 - **API**:  
-  - [TheMealDB API](https://www.themealdb.com/api.php)  
+  - [TheMealDB API](https://www.themealdb.com/api.php)
+
+- **Deployment**:
+  [GithubPages](https://danikanjw.github.io/food-recommendation-web/)
